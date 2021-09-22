@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>itmdevlabs_currency_exchange</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Autofac" />
+    <None Remove="Autofac.Extensions.DependencyInjection" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.2.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="7.1.0" />
+  </ItemGroup>
+</Project>
