@@ -1,2 +1,2 @@
 # idl-currency-exchange
-Na potrzeby szkolenia
+Na potrzeby szkolenia wprowadzenie do DDD 
